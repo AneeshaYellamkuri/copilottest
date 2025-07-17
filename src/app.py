@@ -39,7 +39,27 @@ activities = {
         "max_participants": 30,
         "participants": ["john@mergington.edu", "olivia@mergington.edu"]
     }
-}
+    # Add more activities as needed
+    ,
+    "Art Club": {
+        "description": "Explore painting, drawing, and sculpture with peers",
+        "schedule": "Wednesdays, 4:00 PM - 5:30 PM",
+        "max_participants": 15,
+        "participants": ["lucas@mergington.edu"]
+    },
+    "Debate Team": {
+        "description": "Practice public speaking and compete in debate tournaments",
+        "schedule": "Thursdays, 3:30 PM - 5:00 PM",
+        "max_participants": 10,
+        "participants": []
+    },
+    "Science Olympiad": {
+        "description": "Participate in science competitions and experiments",
+        "schedule": "Mondays, 4:00 PM - 5:30 PM",
+        "max_participants": 18,
+        "participants": ["mia@mergington.edu", "liam@mergington.edu"]
+    }
+    }
 
 
 @app.get("/")
